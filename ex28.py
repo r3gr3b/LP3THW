@@ -1,0 +1,21 @@
+# EX 28 from LP3THW
+
+
+print(True and True, "is True")
+print(False and True, "is False")
+print(1==1 and 2==1, "is False")
+print("test" == "test", "is True")
+print(1==1 or 2 != 2, "is True")
+print(True and 1==1, "is True")
+print(False and 0!=0, "is False")
+print(True or 1==1, "is True")
+print("test" == "testing", "is False")
+print("test" == 1, "is False")
+print(not(True and False), "is True")
+print(not (1 == 1 and 0 != 1), "is False")
+print(not(10 == 1 or 1000 == 1000), "is False")
+print(not(1 != 10 or 3 == 4), "is False")
+print(not("testing" == "testing" and "Zed" == "Cool Guy"), "is True")
+print(1==1 and (not ("testing" == 1 or 1 == 0)), "is True")
+print("chunky" == "bacon" and (not ( 3==4 or 3==3)), "is False")
+print(3==3 and (not ("testing" == "testing" or "Python" == "Fun")), "is False")
